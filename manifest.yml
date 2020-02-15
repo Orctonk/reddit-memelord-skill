@@ -8,7 +8,6 @@ dependencies:
 #   # Pip dependencies on PyPI
   python:
     - requests
-    - PIL
     - praw
     - pysimplegui
 #

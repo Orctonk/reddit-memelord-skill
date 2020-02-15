@@ -28,7 +28,7 @@ class RedditMemelord(MycroftSkill):
             self.speak_dialog('memelord.last')
     
     @intent_file_handler('memelord.previous.intent')
-    def handle_memelord_next(self, message):
+    def handle_memelord_previous(self, message):
         if self.memelord.next():
             self.speak_dialog('memelord.serve')
         else:

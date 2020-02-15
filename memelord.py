@@ -72,4 +72,5 @@ class Memelord():
             return False
 
     def closeWindow(self):
-        self.window.close
+        self.window.close()
+        self.windowOpened = False

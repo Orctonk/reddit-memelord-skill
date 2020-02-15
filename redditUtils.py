@@ -12,10 +12,8 @@ def getImagefromURL(url: str) -> Image:
     return img
 
 def getsubs() -> List[str]:
-    f = open("subreddits.list","r")
-    subs = []
-    for r in f:
-        subs.append(r.strip())
+    
+    subs = ["me_irl","prequelmemes","funny"]
 
     return subs
 

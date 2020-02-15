@@ -1,8 +1,6 @@
 import redditUtils as ru
 import PySimpleGUI as sg
 from PIL import Image
-import threading
-import os
 import base64
 from io import BytesIO
 

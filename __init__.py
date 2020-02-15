@@ -1,5 +1,5 @@
 from mycroft import MycroftSkill, intent_file_handler
-from . import Memelord
+from .memelord import Memelord
 
 class RedditMemelord(MycroftSkill):
     def __init__(self):
@@ -36,4 +36,3 @@ class RedditMemelord(MycroftSkill):
 
 def create_skill():
     return RedditMemelord()
-

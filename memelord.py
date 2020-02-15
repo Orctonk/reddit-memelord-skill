@@ -1,4 +1,4 @@
-import redditUtils as ru
+from . import redditUtils as ru
 import PySimpleGUI as sg
 from PIL import Image
 import base64
@@ -73,16 +73,3 @@ class Memelord():
 
     def closeWindow(self):
         self.window.close
-
-m = Memelord()
-m.openWindow()
-
-i = input("[N]ext, [P]revious or [Q]uit?")
-while i.lower() != "q":
-    if i.lower() == "n":
-        m.next()
-    elif i.lower() == "p":
-        m.previous()
-    i = input("[N]ext, [P]revious or [Q]uit?")
-
-m.closeWindow()
